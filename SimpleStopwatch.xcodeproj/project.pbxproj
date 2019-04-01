@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		225C765B2251A19000ACAFE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C765A2251A19000ACAFE2 /* AppDelegate.swift */; };
-		225C765D2251A19000ACAFE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C765C2251A19000ACAFE2 /* ViewController.swift */; };
+		225C765D2251A19000ACAFE2 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C765C2251A19000ACAFE2 /* StopwatchViewController.swift */; };
 		225C76602251A19000ACAFE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225C765E2251A19000ACAFE2 /* Main.storyboard */; };
 		225C76622251A19100ACAFE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225C76612251A19100ACAFE2 /* Assets.xcassets */; };
 		225C76652251A19100ACAFE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225C76632251A19100ACAFE2 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		225C76572251A19000ACAFE2 /* SimpleStopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleStopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		225C765A2251A19000ACAFE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		225C765C2251A19000ACAFE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		225C765C2251A19000ACAFE2 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
 		225C765F2251A19000ACAFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		225C76612251A19100ACAFE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		225C76642251A19100ACAFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,22 @@
 		225C76592251A19000ACAFE2 /* SimpleStopwatch */ = {
 			isa = PBXGroup;
 			children = (
-				225C765A2251A19000ACAFE2 /* AppDelegate.swift */,
-				225C765C2251A19000ACAFE2 /* ViewController.swift */,
+				225C766C2251A1DE00ACAFE2 /* Supporting Files */,
+				225C765C2251A19000ACAFE2 /* StopwatchViewController.swift */,
 				225C765E2251A19000ACAFE2 /* Main.storyboard */,
-				225C76612251A19100ACAFE2 /* Assets.xcassets */,
-				225C76632251A19100ACAFE2 /* LaunchScreen.storyboard */,
 				225C76662251A19100ACAFE2 /* Info.plist */,
 			);
 			path = SimpleStopwatch;
+			sourceTree = "<group>";
+		};
+		225C766C2251A1DE00ACAFE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				225C765A2251A19000ACAFE2 /* AppDelegate.swift */,
+				225C76612251A19100ACAFE2 /* Assets.xcassets */,
+				225C76632251A19100ACAFE2 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225C765D2251A19000ACAFE2 /* ViewController.swift in Sources */,
+				225C765D2251A19000ACAFE2 /* StopwatchViewController.swift in Sources */,
 				225C765B2251A19000ACAFE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
