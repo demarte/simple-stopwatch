@@ -82,7 +82,7 @@ final class StopwatchViewController: UIViewController {
     let minutes = Int(time) / 6000 % 60
     let seconds = Int(time) / 100 % 60
     let milliseconds = Int(time) % 100
-    return String(format: "%02i:%02i:%02i", minutes, seconds, milliseconds)
+    return String(format: "%02i:%02i,%02i", minutes, seconds, milliseconds)
   }
 }
 
