@@ -39,6 +39,7 @@
 		225C764E2251A19000ACAFE2 = {
 			isa = PBXGroup;
 			children = (
+				22DBBA9B225388490025FEAE /* README.md */,
 				225C76592251A19000ACAFE2 /* SimpleStopwatch */,
 				225C76582251A19000ACAFE2 /* Products */,
 			);
@@ -59,7 +60,6 @@
 				225C765C2251A19000ACAFE2 /* StopwatchViewController.swift */,
 				225C765E2251A19000ACAFE2 /* Main.storyboard */,
 				225C76662251A19100ACAFE2 /* Info.plist */,
-				22DBBA9B225388490025FEAE /* README.md */,
 			);
 			path = SimpleStopwatch;
 			sourceTree = "<group>";
