@@ -22,6 +22,7 @@
 		225C76612251A19100ACAFE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		225C76642251A19100ACAFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		225C76662251A19100ACAFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DBBA9B225388490025FEAE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 				225C765C2251A19000ACAFE2 /* StopwatchViewController.swift */,
 				225C765E2251A19000ACAFE2 /* Main.storyboard */,
 				225C76662251A19100ACAFE2 /* Info.plist */,
+				22DBBA9B225388490025FEAE /* README.md */,
 			);
 			path = SimpleStopwatch;
 			sourceTree = "<group>";
